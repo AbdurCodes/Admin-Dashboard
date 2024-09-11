@@ -16,16 +16,24 @@
     font-weight: 600;
 }
 
-.rightSide {
-    background-color: rgb(201, 219, 137);
-}
-
 .sidebar ul li{
     display: flex;
     align-items: center;
     margin-bottom: 13px;
 }
 
+.rightSide {
+    background-color: rgb(201, 219, 137);
+}
+
+.header {
+    background-color: rgb(255,255,255);
+    padding: 17px;
+}
+
+.main-content{
+    background-color: rgb(226,232,240);
+}
 
 .settings{
     margin-top: 52px;
@@ -39,4 +47,87 @@
     width: 65px;
     filter: invert(1);
     text-align: center;
+}
+
+.upperNavbar{
+    margin-bottom: 25px;
+
+    & div:nth-child(1) {
+        margin-right: auto;
+    }
+    & div:nth-child(2) {
+        margin-right: 50px;
+
+        & p {
+            font-weight: 900;
+        }
+    }
+}
+
+.lowerNavbar{
+    margin: 0 30px;
+}
+
+.lowerNavbar, .upperNavbar{
+    display: flex;
+    color: black;
+    justify-content: space-around;
+
+    & div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.lowerNavbar .welcomeMsgPlusProfileName {
+    flex-direction: column;
+    margin-right: auto;
+    align-items: flex-start;
+
+    & p:nth-child(1) {
+        font-size: 0.85rem;
+        font-weight: 900;
+    }
+    & p:nth-child(2) {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+}
+
+input[type='search'] {
+    background-color: rgb(226,232,240);
+    border-radius: 13px;
+    border: none;
+    width: 520px;
+    height: 30px;
+}
+
+img[src="icons/search.svg"]{
+    margin: 0 12px 0 20px;
+}
+
+img[src="icons/bell.svg"] {
+    margin-right: 20px;
+}
+
+img[src="icons/myimg.png"] {
+    filter: brightness(1.5);
+    margin-right: 20px;
+}
+
+.newUploadShareBtns button {
+    background-color: rgb(25,146,212);
+    color: white;
+    width: 100px;
+    height: 41px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 550;
+
+    &:nth-child(2) {
+        margin: 0 25px;
+    }
 }
