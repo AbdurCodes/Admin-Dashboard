@@ -142,14 +142,14 @@ img[src="icons/myimg.png"] {
     content: 'Announcements';
     position: absolute;
     font-weight: bold;
-    top: 20px;
+    top: 30px;
 }
 
 .trending::before {
     content: 'Trending';
     position: absolute;
     font-weight: bold;
-    bottom: 500px;
+    bottom: 487px;
 }
 
 .announcementsAndTrending {
@@ -182,7 +182,7 @@ img[src="icons/myimg.png"] {
         content: 'Your Projects';
         position: absolute;
         font-weight: bold;
-        top: 20px;
+        top: 30px;
     }
 
 
